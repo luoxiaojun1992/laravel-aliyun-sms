@@ -1,0 +1,19 @@
+{
+    "name": "luoxiaojun/laravel-aliyun-sms",
+    "description": "Aliyun Sms in Laravel",
+    "type": "library",
+    "require": {
+        "alibabacloud/client": "^1.5"
+    },
+    "license": "apache-2.0",
+    "authors": [
+        {
+            "name": "luoxiaojun",
+            "email": "luoxiaojun1992@sina.cn"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Lxj\\Laravel\\AliyunSms\\": "src/"}
+    },
+    "minimum-stability": "dev"
+}
